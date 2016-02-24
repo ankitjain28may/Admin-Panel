@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    height:667px;
+    width:100%;
+    font-family:helvetica;
+    font-weight: 300;
+    background-color: #f7ce3e;
+    color: white;
+    overflow: auto;
+}
+#side {
+    background-color:#1a2930;
+    float: left;
+    width: 25%;
+    height: 667px;
+    text-align:center;  
+}
+#section {
+
+	float: center;
+}
+
+form  {
+	text-align: center;
+	font-size: 120%;
+	padding-top: 8%;
+
+}
+#in {
+	display: inline;
+
+}
+
+
+form input {
+	width: 30%;
+	height: 40px;
+	font-size: 120%;
+	text-indent: 5%;
+	border: none;
+	margin: 1%;
+
+}
+button {
+	margin-left: 4.5%;
+	margin-top: 30px;
+	width: 30%;
+	text-align:center;
+	height: 50px;
+	background-color: #1a2930;
+	color: white;
+	font-size: 20px;
+}
+
+button:hover {
+	font-size: 22px;
+    width: 33%;
+    height: 55px;
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+button {
+	margin-top: 30px;
+	width: 80%;
+}
+button:hover {
+	width: 80%;
+}
+#in {
+	display: inherit;
+
+}
+
+form input {
+	width: 50%;
+	height: 30px;
+	text-indent: 5%;
+
+}
+button {
+	margin-top: 30px;
+	width: 28%;
+	text-align:center;
+	height: 45px;
+	background-color: #1a2930;
+	color: white;
+	font-size: 18px;
+}
+
+button:hover {
+	font-size: 20px;
+    width: 30%;
+    height: 45px;
+
+}
+
+}
